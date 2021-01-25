@@ -1,0 +1,33 @@
+CRE tux herring
+SUC tux
+
+CRE tux 1994-----------Kullanıcı kaydı var olduğundan ALR mesajı alnmıştır
+ALR tux
+
+CRE torvalds 1972------------- Bonus kısımları haricinde eklenen, parola kalitesini artırması amaçlanan protokol mesajı devreye girmiştir.
+BAD torvalds------------------ BAD PASSWORD torvalds kullanıcısının kaydı 19721 şifresiyle yapıldı.
+
+CRE torvadls 19721
+SUC torvadls
+
+
+ENT gentoo tux 
+LIS gentoo            
+
+ENT gentoo torvalds 
+LIS gentoo
+
+			Banlama ve odadan atma gerçeklenmediğinden istekler atlanmıştır.
+                     -------------  "torvalds" rumuzlu kullanıcıyı "gentoo" isimli odadan at.
+		     ------------- "torvalds" rumuzlu kullanıcının "gentoo" isimli odaya girmesini engelle. (banlama yaptıysanız).
+
+ENT ubuntu tux 
+LIS ubuntu
+
+
+
+{'password': 'herring', 'adminShip': [], 'memberShip': []}
+{'password': '19721', 'adminShip': [], 'memberShip': []}
+{'gentoo': {'members': ['tux'], 'blockedusers': []}}
+{'gentoo': {'members': ['torvalds'], 'blockedusers': []}} 
+{'ubuntu':  'members': ['tux'], 'blockedusers': []}}
