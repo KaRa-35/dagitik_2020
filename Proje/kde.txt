@@ -1,0 +1,11 @@
+CRE kde 2020 
+BAD kde	     
+
+CRE kde 20200 
+SUC kde	     
+
+ENT ubuntu kde 
+LIS ubuntu
+
+ENT plasma kde 
+LIS plasma
