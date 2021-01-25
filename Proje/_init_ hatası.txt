@@ -1,0 +1,22 @@
+Editor kullanımında doğduğunu düşündüğüm hatalar ektedir.
+
+class WriteThread(threading.Thread):
+    def _init_(self,name,csoc,cAddr,threadQueue,logQueue,condition):
+        threading.Thread._init_(self)
+
+class ReadThread(threading.Thread):
+    def _init_(self,name,csoc,cAddr,threadQueue,logQueue,User_Dict,condition,rooms):
+        threading.Thread._init_(self)
+
+class LogThread(threading.Thread):
+    def _init_(self,logQueue):
+        threading.Thread._init_(self)
+
+if _name_ == "_main_":
+    main()
+
+_init_ olan kısımlarda __init__ 
+_name_ olan kısımda da _main_	
+
+şeklinde yazılması gereken kısımlarda anlamadığım bir hatadan ötürü eksik yazıldığını test prosedürünü -
+uygularken fark ettim. Sunucunun kontrolünün yukarıdaki hataları dikkate alınarak yapılmasını arz ederim. 
