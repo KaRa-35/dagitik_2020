@@ -1,3 +1,0 @@
-		----------- "ubuntu" isimli odayı sil/kapat.              (Silme ve Kapatma fonksiyonu gerçeklenemedi.)
-QUI 		----------- komutuyla çıkış yapılır.
-		
