@@ -1,0 +1,25 @@
+CRE tux herring
+SUC tux
+
+CRE tux 1994
+ALR tux
+
+CRE torvalds 1972
+BAD torvalds
+
+CRE torvadls 19721
+SUC torvadls
+
+
+ENT gentoo tux 
+LIS gentoo            
+
+ENT gentoo torvalds 
+LIS gentoo
+			                  
+
+ENT ubuntu tux 
+LIS ubuntu
+
+
+
