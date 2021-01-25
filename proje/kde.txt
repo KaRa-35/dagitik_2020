@@ -1,0 +1,18 @@
+CRE kde 2020 ------------------ "kde" rumuzu ve "2020" şifresiyle sunucuya kaydol.
+BAD kde	     ---------------- Parolanın güçlendirilmesi gerektiğini söyleyen protokol
+
+CRE kde 20200 ---------------- "kde" rumuzu ve "2020" şifresiyle sunucuya kaydol.
+SUC kde	      ---------------- kde rumuzlu kullanıcının kaydı gerçeklendi.
+
+ENT ubuntu kde --------------- kde rumuzlu kullanıcı ubuntu isimli odayı kurarak içine girdi.
+LIS ubuntu
+
+ENT plasma kde --------------kde rumuzlu kullanıcı plasma isimli odayı kurarak içine girdi.
+LIS plasma
+
+               -------------- "plasma" odasını sil/kapat. (Silme ve kapatma fonksiyonu gerçeklenemedi.)
+
+
+{'password': '20200', 'adminShip': [], 'memberShip': []}
+{'ubuntu':'members': ['kde'], 'blockedusers': []}, 
+'plasma': {'members': ['kde'], 'blockedusers': []}}
